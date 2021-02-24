@@ -14,4 +14,4 @@ def sender(filename,ip,port=1310):
                     break
                 s.sendall(read)
 # sender('','')
-sender('D:\drop-box\Ava Max - So Am I.mp3','10.0.26.2')
+sender('','')
