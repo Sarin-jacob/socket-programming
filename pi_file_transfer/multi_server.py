@@ -6,7 +6,7 @@ def filez(conn,addr):#trial3
     try:
         print(f'{addr} is connected !')
         with open('receiver_log.txt','a') as log:
-                log.write(f'\nTime :{ctime()} -> {addr} is connected !')
+                log.write(f'\n\nTime :{ctime()} -> {addr} is connected !')
         data=conn.recv(4096).decode()
         filename,filesize=data.split('+')
         filename=os.path.basename(filename)
@@ -24,18 +24,21 @@ def filez(conn,addr):#trial3
             print(f'\n {filename} done receiving !')
             with open('receiver_log.txt','a') as log:
                 if filesize-int(os.path.getsize(filename))<=(filesize/100):
-                    log.write(f"\nTime :{ctime()} -> {filename} ({filesize}B) received from {addr}")
+                    log.write(f"\n\nTime :{ctime()} -> {filename} ({filesize}B) received from {addr}")
                 else:
-                    log.write(f"\nTime :{ctime()} -> {filename} ({filesize}B) received from {addr} is 'broken'")
+                    log.write(f"\n\nTime :{ctime()} -> {filename} ({filesize}B) received from {addr} is 'broken'")
     except Exception as e:
         with open('receiver_log.txt','a') as log:
-            log.write(f'Time :{ctime()} -> {e}\n')
+            log.write(f'\nTime :{ctime()} -> {e}\n')
         conn.close()
-def reciever(port=1310):   
+def reciever(port=1310):  
     import socket
     import tqdm
     import os
+    from time import ctime
     from _thread import start_new_thread
+    with open('receiver_log.txt','a') as log:
+            log.write(f'\n\nTime :{ctime()} -> Reciever have started!\n')
     host=socket.gethostbyname(socket.gethostname())
     host1='0.0.0.0'
     print('\n',host,'is the servers pi address',end='\n\n')

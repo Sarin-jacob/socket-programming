@@ -13,5 +13,4 @@ def sender(filename,ip,port=1310):
                     s.close()
                     break
                 s.sendall(read)
-# sender('','')
-sender('D:\Video\Can You Actually Game in 8K- (RTX 3090 Gameplay!) - YouTube.mp4','10.0.26.21')
+sender('file','ip')
