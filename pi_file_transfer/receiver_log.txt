@@ -22,3 +22,36 @@ Time :Sat Feb 27 12:22:23 2021 -> Reciever have started!
 
 Time :Sat Feb 27 12:22:28 2021 -> ('10.0.26.21', 43784) is connected !
 Time :Sat Feb 27 12:25:57 2021 -> [WinError 10054] An existing connection was forcibly closed by the remote host
+
+###############################################################################
+
+Time :Sat Feb 27 14:56:25 2021 -> Reciever have started!
+
+Time :Sat Feb 27 14:56:56 2021 -> ('10.0.26.21', 46788) is connected !
+Time :Sat Feb 27 14:58:32 2021 -> The Elements_ A Visual Exploration of Every Known Atom in the Universe ( PDFDrive ).epub (303555633B) received from ('10.0.26.21', 46788) is 'broken'
+Time :Sat Feb 27 15:01:02 2021 -> ('10.0.26.21', 46800) is connected !
+Time :Sat Feb 27 15:01:13 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2747610B) received from ('10.0.26.21', 46800)
+###############################################################################
+
+Time :Sat Feb 27 15:05:18 2021 -> Reciever have started!
+
+Time :Sat Feb 27 15:05:35 2021 -> ('10.0.26.21', 46810) is connected !
+Time :Sat Feb 27 15:05:35 2021 -> 'utf-8' codec can't decode byte 0xac in position 167: invalid start byte
+Time :Sat Feb 27 15:05:41 2021 -> ('10.0.26.21', 46814) is connected !
+Time :Sat Feb 27 15:05:51 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2683.212890625KB) received from ('10.0.26.21', 46814)
+Time :Sat Feb 27 15:07:21 2021 -> ('10.0.26.21', 46826) is connected !
+Time :Sat Feb 27 15:07:25 2021 -> ('10.0.26.21', 46828) is connected !
+Time :Sat Feb 27 15:07:26 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2683.212890625KB) received from ('10.0.26.21', 46828)
+Time :Sat Feb 27 15:07:26 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2683.212890625KB) received from ('10.0.26.21', 46826)
+Time :Sat Feb 27 15:07:49 2021 -> ('10.0.26.21', 46830) is connected !
+Time :Sat Feb 27 15:07:50 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2683.212890625KB) received from ('10.0.26.21', 46830)
+###############################################################################
+
+Time :Sat Feb 27 15:09:36 2021 -> Reciever have started!
+
+Time :Sat Feb 27 15:10:13 2021 -> ('10.0.26.21', 46842) is connected !
+Time :Sat Feb 27 15:10:21 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2683KB) received from ('10.0.26.21', 46842)
+Time :Sat Feb 27 15:12:03 2021 -> ('10.0.26.21', 46844) is connected !
+Time :Sat Feb 27 15:12:03 2021 -> 'utf-8' codec can't decode byte 0xac in position 167: invalid start byte
+Time :Sat Feb 27 15:12:32 2021 -> ('10.0.26.21', 46852) is connected !
+Time :Sat Feb 27 15:12:40 2021 -> 9c2200045fd6436e881b265999b9cfb6.mp4 (2683KB) received from ('10.0.26.21', 46852)
