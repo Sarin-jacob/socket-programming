@@ -4,7 +4,7 @@ def sender(filename,ip,port=1310):
     filesize=os.path.getsize(filename)
     k=0
     with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
-        while k=0
+        while k==0:
             s.connect((ip,port))
             s.send(f"{filename}+{filesize}".encode())
             with open(filename,'rb') as f:
