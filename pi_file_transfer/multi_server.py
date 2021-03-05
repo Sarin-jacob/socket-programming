@@ -8,7 +8,7 @@ def filez(conn,addr):#trial3
         with open('receiver_log.txt','a') as log:
                 log.write(f'\nTime :{ctime()} -> {addr} is connected !')
         data=conn.recv(4096).decode()
-        filename,filesize=data.split('+')
+        filename,filesize=data.split('<<=>>')
         filename=os.path.basename(filename)
         filesize=int(filesize)
         progress=tqdm.tqdm(range(filesize),f'Receiving {filename}',unit='B',unit_scale=True,unit_divisor=1024)

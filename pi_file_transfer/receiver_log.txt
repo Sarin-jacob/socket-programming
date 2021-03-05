@@ -370,3 +370,51 @@ Time :Sun Feb 28 21:07:21 2021 -> ('10.0.2.30', 37226) is connected !
 Time :Sun Feb 28 21:07:21 2021 -> invalid literal for int() with base 10: '3267\n# Web streaming example\n# Source code from the official PiCamera package\n# http://picamera.readthedocs.io/en/latest/recipes2.html#web-streaming\n\nimport io\nimport picamera\nimport logging\n
 Time :Sun Feb 28 21:09:20 2021 -> ('10.0.2.30', 37228) is connected !
 Time :Sun Feb 28 21:09:20 2021 -> try.py (3 KB) received from ('10.0.2.30', 37228) is 'broken'
+###############################################################################
+
+Time :Mon Mar  1 19:50:21 2021 -> Reciever have started!
+
+Time :Mon Mar  1 19:50:24 2021 -> ('10.0.26.21', 43150) is connected !
+Time :Mon Mar  1 19:50:24 2021 -> too many values to unpack (expected 2)
+Time :Mon Mar  1 19:51:41 2021 -> ('10.0.26.21', 43160) is connected !
+Time :Mon Mar  1 19:51:41 2021 -> too many values to unpack (expected 2)
+Time :Mon Mar  1 19:51:54 2021 -> ('10.0.26.21', 43162) is connected !
+Time :Mon Mar  1 19:51:54 2021 -> too many values to unpack (expected 2)
+###############################################################################
+
+Time :Mon Mar  1 19:52:25 2021 -> Reciever have started!
+
+Time :Mon Mar  1 19:52:30 2021 -> ('10.0.26.21', 43170) is connected !
+Time :Mon Mar  1 19:52:30 2021 -> too many values to unpack (expected 2)
+Time :Mon Mar  1 19:52:42 2021 -> ('10.0.26.21', 43176) is connected !
+Time :Mon Mar  1 19:52:42 2021 -> 'utf-8' codec can't decode byte 0x94 in position 115: invalid start byte
+###############################################################################
+
+Time :Mon Mar  1 19:53:16 2021 -> Reciever have started!
+
+Time :Mon Mar  1 19:54:11 2021 -> ('10.0.26.21', 43314) is connected !
+Time :Mon Mar  1 19:54:11 2021 -> too many values to unpack (expected 2)
+###############################################################################
+
+Time :Tue Mar  2 23:39:11 2021 -> Reciever have started!
+
+###############################################################################
+
+Time :Tue Mar  2 23:40:29 2021 -> Reciever have started!
+
+###############################################################################
+
+Time :Tue Mar  2 23:42:17 2021 -> Reciever have started!
+
+###############################################################################
+
+Time :Tue Mar  2 23:53:20 2021 -> Reciever have started!
+
+###############################################################################
+
+Time :Tue Mar  2 23:56:13 2021 -> Reciever have started!
+
+Time :Tue Mar  2 23:56:23 2021 -> ('10.0.26.21', 41806) is connected !
+Time :Tue Mar  2 23:56:23 2021 -> 'utf-8' codec can't decode byte 0x94 in position 114: invalid start byte
+Time :Tue Mar  2 23:56:33 2021 -> ('10.0.26.21', 41810) is connected !
+Time :Tue Mar  2 23:56:47 2021 -> IDM 6.38 build 17 incl Patch [32bit  64bit][CrackingPatching].zip (14696 KB) received from ('10.0.26.21', 41810)
